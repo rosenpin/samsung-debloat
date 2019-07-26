@@ -5,8 +5,11 @@ Tested on my Galaxy S10e
 
 ## Instructions
 The uninstall script takes a name of a file that is located under the `apps` directory.
+
 This list needs to contain apps package names seperated by line breaks.
+
 Currently the only supported list is the `all` list.
+
 You can create your own list at your own risk, place it under the `apps` folder and run the ./uninstall script providing the name of the file as an argument.
 
 For example:
