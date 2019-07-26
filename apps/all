@@ -26,12 +26,31 @@ com.touchtype.swiftkey
 com.sonymobile.support
 com.google.android.music
 com.sonymobile.android.contacts
+
+# FACEBOOK
 com.facebook.katana
 com.facebook.system
 com.facebook.appmanager
 com.facebook.services
-com.samsung.android.game.gamehome
+
+com.google.vr.vrcore
 com.enhance.gameservice
+flipboard.boxer.app
+com.linkedin.android
+
+# MICROSOFT
+com.microsoft.skydrive
+com.microsoft.office.officehubhl
+com.microsoft.office.officehub
+com.microsoft.office.officehubrow
+
+# SAMSUNG
+com.samsung.android.calendar
+com.samsung.android.app.reminder
+com.samsung.android.app.spage
+com.samsung.android.app.routines
+com.samsung.android.visionintelligence
+com.samsung.android.game.gamehome
 com.samsung.android.game.gametools
 com.samsung.android.game.gos
 com.samsung.android.gametuner.thin
@@ -40,21 +59,36 @@ com.samsung.android.app.sbrowseredge
 com.samsung.android.hmt.vrsvc
 com.samsung.android.app.vrsetupwizardstub
 com.samsung.android.hmt.vrshell
-com.google.vr.vrcore
 com.samsung.android.kidsinstaller
 com.samsung.android.app.camera.sticker.facearavatar.preload
-flipboard.boxer.app
-com.linkedin.android
-com.microsoft.skydrive
-com.microsoft.office.officehubhl
-com.microsoft.office.officehub
+com.samsung.android.smartmirroring
+com.samsung.android.aremoji
+com.samsung.android.app.spage
+com.sec.android.widgetapp.samsungapps
+com.sec.android.mimage.avatarstickers
+com.samsung.android.drivelink.stub
+com.samsung.android.email.provider
+com.wsomacp
+
+# SAMSUNG DEX
+com.sec.android.desktopmode.uiservice
+com.samsung.desktopsystemui
+com.sec.android.app.desktoplauncher
+
+# SAMSUNG PASS
+com.samsung.android.samsungpassautofill
+com.samsung.android.authfw
+com.samsung.android.samsungpass
+com.samsung.android.spay
+com.samsung.android.spayfw
+
+# BIXBY
 com.samsung.android.bixby.wakeup
 com.samsung.android.app.spage
 com.samsung.android.app.routines
 com.samsung.android.bixby.service
-com.samsung.android.visionintelligence
 com.samsung.android.bixby.agent
 com.samsung.android.bixby.agent.dummy
-com.samsung.android.bixbyvision.framework
-com.microsoft.office.officehubrow
-com.samsung.android.calendar
+
+# OTHER
+flipboard.boxer.app
