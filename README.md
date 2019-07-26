@@ -11,3 +11,7 @@ You can create your own list at your own risk, place it under the `apps` folder 
 
 For example:
 `./uninstall.sh all` to uninstall bloatware using the default list I assembled 
+
+## A word of warning
+Removing system apps may cause your device to behave unexpectedly and may even break it.  
+Please be cautious and proceed at your own risk.
