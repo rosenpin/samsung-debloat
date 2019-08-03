@@ -92,3 +92,6 @@ com.samsung.android.bixby.agent.dummy
 
 # OTHER
 flipboard.boxer.app
+
+# SAMSUNG DIGITAL WELLBEING
+com.samsung.android.wellbeing
