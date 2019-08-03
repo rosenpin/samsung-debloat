@@ -1,6 +1,5 @@
 # samsung-debloat
-Remove bloatware that comes pre-installed on Samsung Galaxy devices
-
+Remove bloatware that comes pre-installed on Samsung Galaxy devices (may also work on other, non Samsung devices)  
 Tested on my Galaxy S10e
 
 ## Instructions
