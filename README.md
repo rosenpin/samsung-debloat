@@ -2,9 +2,12 @@
 Remove bloatware that comes pre-installed on Samsung Galaxy devices (may also work on other, non Samsung devices)  
 Tested on my Galaxy S10e
 
-## Pre Requirements
+## Pre-requirements
 You need to have the following:
-* A unix shell (Linux bash/zsh/whatever, macOS bash/zsh, some shell for Windows cygwin/gitbash/linux sub system for windows/...)
+* A unix shell 
+    * Linux bash/zsh/...
+    * macOS bash/zsh/...
+    * Windows unix shell - cygwin/gitbash/linux sub system for windows/...
 * adb installed ([install adb](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
 ## Instructions
