@@ -4,13 +4,17 @@ Remove bloatware that comes pre-installed on Samsung Galaxy devices
 Tested on my Galaxy S10e
 
 ## Instructions
-The uninstall script takes a name of a file that is located under the `apps` directory.  
+The uninstall script takes a path to a file that contains a list of package names.
+Such files can be located under the `apps` directory (for example amazon, facebook, samsung...)
 This list needs to contain apps package names seperated by line breaks.  
-Currently the only supported list is the `all` list.  
-You can create your own list at your own risk, place it under the `apps` folder and run the ./uninstall script providing the name of the file as an argument.  
+You can create your own list at your own risk, just run the ./uninstall script providing the path to the file as an argument.  
 
 For example:
-`./uninstall.sh all` to uninstall bloatware using the default list I assembled 
+`./uninstall.sh facebook` to uninstall facebook bloatware using the default list I assembled 
+
+## Simple debloat
+You can simply run
+`./uninstall.sh apps/*` to uninstall the apps from all the list I provided
 
 ## A word of warning
 Removing system apps may cause your device to behave unexpectedly and may even break it.  

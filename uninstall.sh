@@ -24,7 +24,7 @@ _apps_to_remove=$(cat "$@" | grep "\S" | grep -v "#.*")
 echo "$_apps_to_remove"
 
 echo
-read -p "Are you sure you want to uninstall these apps? " -n 1 -r
+read -p "Are you sure you want to uninstall these apps? [y/N]" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
