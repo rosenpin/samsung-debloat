@@ -2,6 +2,11 @@
 Remove bloatware that comes pre-installed on Samsung Galaxy devices (may also work on other, non Samsung devices)  
 Tested on my Galaxy S10e
 
+## Pre Requirements
+You need to have the following:
+* A unix shell (Linux bash/zsh/whatever, macOS bash/zsh, some shell for Windows cygwin/gitbash/linux sub system for windows/...)
+* adb installed ([install adb](https://www.xda-developers.com/install-adb-windows-macos-linux/)
+
 ## Instructions
 The uninstall script takes a path to a file that contains a list of package names.
 Such files can be located under the `apps` directory (for example amazon, facebook, samsung...)
