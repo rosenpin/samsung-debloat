@@ -1,7 +1,10 @@
 #!/bin/bash
 
+SCRIPT_PATH=$(dirname $0)
+
 exit-error() {
-    echo $1
+    echo $@
+    echo "Please specify the path to the list of apps you want to remove. For example: $SCRIPT_PATH/apps/facebook"
     exit 1
 }
 
@@ -12,8 +15,18 @@ if [ -z $1 ]; then
     exit-error "No package list selected"
 fi
 
-ls "$LISTS_DIR/$1" &> /dev/null \
-    || exit-error "No package list found for $1"
+ls "$@" &> /dev/null \
+    || exit-error "No package list found for $@"
 
 echo "Uninstalling..."
-cat "$LISTS_DIR/$1" | grep "\S" | grep -v "#.*" | xargs -I{} ./$UNINSTALL_SCRIPT {}
+echo
+_apps_to_remove=$(cat "$@" | grep "\S" | grep -v "#.*")
+echo "$_apps_to_remove"
+
+echo
+read -p "Are you sure you want to uninstall these apps? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo "$_apps_to_remove" | xargs -I{} ./$UNINSTALL_SCRIPT {}
+fi
