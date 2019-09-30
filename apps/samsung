@@ -1,4 +1,5 @@
 # SAMSUNG
+com.samsung.android.mobileservice
 com.samsung.android.calendar
 com.samsung.android.app.reminder
 com.samsung.android.app.spage
@@ -23,6 +24,7 @@ com.sec.android.mimage.avatarstickers
 com.samsung.android.drivelink.stub
 com.samsung.android.email.provider
 com.wsomacp
+com.samsung.aasaservice
 
 # SAMSUNG DEX
 com.sec.android.desktopmode.uiservice
@@ -38,3 +40,6 @@ com.samsung.android.spayfw
 
 # SAMSUNG DIGITAL WELLBEING
 com.samsung.android.wellbeing
+
+# Samsung windows service
+com.samsung.android.mdx 
