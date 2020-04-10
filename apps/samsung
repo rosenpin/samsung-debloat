@@ -43,3 +43,22 @@ com.samsung.android.wellbeing
 
 # Samsung windows service
 com.samsung.android.mdx 
+
+# Samsung push services
+com.sec.spp.push
+
+# AR stuff
+android.autoinstalls.config.samsung
+com.samsung.android.arzone
+com.samsung.android.visionarapps
+com.samsung.android.ardrawing
+com.samsung.android.aremojieditor
+
+# Samsung tips
+com.samsung.android.app.tips
+
+# Galaxy themes
+com.samsung.android.themestore
+
+# Games
+com.samsung.android.game.gos
