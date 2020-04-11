@@ -29,6 +29,7 @@ com.samsung.aasaservice
 # SAMSUNG DEX
 com.sec.android.desktopmode.uiservice
 com.samsung.desktopsystemui
+com.sec.android.app.dexonpc
 com.sec.android.app.desktoplauncher
 
 # SAMSUNG PASS
